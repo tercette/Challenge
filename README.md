@@ -20,10 +20,16 @@ The project start with a login page, that connect with the back end microservice
 To connect into the application, enter this credentials:![image](https://user-images.githubusercontent.com/90712354/217627644-6d241bd7-1a4d-4b37-be56-59be9b65080f.png)
 
 	After "LOGIN" button is clicked, the application comes live:
-![image](https://user-images.githubusercontent.com/90712354/217626024-5c33c276-0f10-451f-a37b-71ea55f2859d.png)
+![image](https://user-images.githubusercontent.com/90712354/217627769-d771ce90-80ff-4fe2-923c-239a02b99304.png)
 
 	We have other microservice here , Operations. Operations receives credit or debit and the value that use insert.
-	One time the user select a type operation (Credit or Debit) and a value, a "Save" button appears. When clicked, Front end sends a payload using a http call to back end, and this do some important validations and push it to DataBase then return the proper transation and a daily list with all transactions thas is used by the front end to show the operations in the screen. 
-	![image](https://user-images.githubusercontent.com/90712354/217626208-9e4efbc8-5dc5-41f5-a934-a68033deeb1f.png)
+	One time the user select a type operation (Credit or Debit) and a value, a "Save" button appears. When clicked, 
+	Front end sends a payload using a http call to back end, and this do some important validations and push it to
+	DataBase then return the proper transation and a daily list with all transactions thas is used by the front end to 
+	show the operations in the screen. 
+	
+	![image](https://user-images.githubusercontent.com/90712354/217627946-0e46b530-dd91-4d4a-97c8-46ae426f73a2.png)
+
+	
 
 
