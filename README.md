@@ -1,4 +1,4 @@
-# challenge
+# Challenge presentation
 
 Clone repository: https://github.com/tercette/challenge.git
 In Powershell, go to the path ~challenge\ChallengeAPI\ChallengeAPI (where is located docker-compose.yaml)
