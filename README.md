@@ -28,7 +28,8 @@ To connect into the application, enter this credentials:![image](https://user-im
 	DataBase then return the proper transation and a daily list with all transactions thas is used by the front end to 
 	show the operations in the screen. 
 	
-![image](https://user-images.githubusercontent.com/90712354/217628073-03ddf955-b44f-4c7d-bb7a-6cd78d67ef59.png)
+![image](https://user-images.githubusercontent.com/90712354/217628287-70c2834c-82a9-4320-bc9a-209193752478.png)
+
 
 
 	
