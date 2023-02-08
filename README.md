@@ -17,7 +17,7 @@ Project introdution
 
 The project start with a login page, that connect with the back end microservice and check if the user inserted contains in the database. If yes, back-end return a token and the user is allowed to enter in the application. If not, front and show a error message, clear the inputs and push user to enter with the correct credentials. For timing purposes, we set a unique user and password hardcoded in back-end. 
 
-To connect into the application, enter this credentials:![image](https://user-images.githubusercontent.com/90712354/217625913-b7f436e1-519d-4457-8f6a-126dc19481be.png)
+To connect into the application, enter this credentials:![image](https://user-images.githubusercontent.com/90712354/217627644-6d241bd7-1a4d-4b37-be56-59be9b65080f.png)
 
 	After "LOGIN" button is clicked, the application comes live:
 ![image](https://user-images.githubusercontent.com/90712354/217626024-5c33c276-0f10-451f-a37b-71ea55f2859d.png)
