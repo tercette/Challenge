@@ -1,0 +1,30 @@
+<div class="news-list">
+  <ng-container>
+    <div class="news">
+
+      <label id="example-radio-group-label">Pick your operation type</label>
+      <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+        [(ngModel)]="operationType">
+        <mat-radio-button class="example-radio-button" *ngFor="let operation of types" [value]="operation">
+          {{operation}}
+        </mat-radio-button>
+      </mat-radio-group>
+
+
+      <mat-form-field class="example-form-field">
+        <mat-label>{{operationType}}</mat-label>
+        <input currencyMask [(ngModel)]="inputValue" [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"  matInput >
+
+        <button matSuffix mat-icon-button aria-label="Clear" (click)="inputValue=null">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <div *ngIf="inputValue" style="display: flex; justify-content: center; ">
+        <button mat-raised-button color="primary" (click)="getValue(inputValue)" >Save</button>
+      </div>
+
+
+    </div>
+  </ng-container>
+</div>

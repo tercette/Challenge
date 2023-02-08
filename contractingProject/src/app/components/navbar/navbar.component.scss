@@ -1,0 +1,55 @@
+.navbar-site {
+  display: flex;
+  height: 50px;
+  background-color: #8d448b;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+  .logo {
+    height: 30px;
+    width: 120px;
+    background: #fff;
+    margin: 8px;
+  }
+
+  .user-logout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .user-pic {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 100%;
+  }
+
+  .btn-logout {
+    display: flex;
+    margin: 8px 16px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.pic {
+width: 100%;
+border-radius: 100%;
+}
+
+.picDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  font-size: large;
+  color: antiquewhite;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+<div class="news-content" >
+  <div class="news-list">
+    <app-movimentation></app-movimentation>
+    <ng-container *ngFor="let item of newsList">
+      <div class="news">
+        <div class="head-news">
+          <div class="news-date">
+            Date: {{today | date: 'dd/MM/yyyy' }}
+          </div>
+        </div>
+        <div class="news-text">
+          The balance value is: R${{balance| number:'1.2-2'}}
+        </div>
+      </div>
+    </ng-container>
+    <div >
+      <ul *ngFor="let lists of list" style="list-style: none;">
+        <li >Value: R${{ lists[0] }} - Date:{{ lists[1] }} </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

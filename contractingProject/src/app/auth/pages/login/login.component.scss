@@ -1,0 +1,85 @@
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  width: auto;
+  height: 60%;
+}
+
+.form-content {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 30px 60px 0 gray;
+  text-align: center;
+  width: 45%;
+  height: 350px;
+  transition: all 0.5s ease-in-out;
+  min-width: 300px;
+  }
+
+.form-content:hover
+{
+box-shadow: 0 30px 60px 0 rgb(61, 61, 61);
+}
+
+.input-Login {
+  background-color: #f6f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px, 0px;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px;
+  width: 90%;
+  height: 50px;
+  border: 2px solid #f6f6f6;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.error-message{
+  font-size: 14px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button {
+  background-color: blue;
+  border: none;
+  color: #f6f6f6;
+  margin-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  box-shadow: 0 10px 30px 0 blue;
+  border-radius: 5px 5px 5px 5px;
+  transition: all 0.3s ease-in-out;
+  width: 60%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 80px;
+  background-color: white;
+  border: none;
+  color: #f6f6f6;
+  font-size: 13px;
+  box-shadow: 0 10px 30px 0 blue;
+  border-radius: 5px 5px 5px 5px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 15px;
+
+}
+
+.bank-logo {
+  width: 30%;
+  max-width: 70px;
+}

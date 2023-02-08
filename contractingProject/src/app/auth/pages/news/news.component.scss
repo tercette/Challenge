@@ -1,0 +1,58 @@
+.news-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .news-list {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 8px 0 grey;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    margin: 80px 20px;
+    overflow: auto;
+
+    .news {
+      border-radius: 7px;
+      background: #fff;
+      box-shadow: 0 1px 5px 0 #8f2a8b;
+      text-align: center;
+      margin: 16px;
+      padding: 8px;
+
+      .head-news {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        .news-date {
+          font-size: 10;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight: normal;
+          color: grey;
+          opacity: 30;
+          margin-left: 8px;
+        }
+
+        .user {
+          font-size: 10;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight: normal;
+          color: grey;
+          opacity: 30;
+          margin-left: 8px;
+        }
+      }
+
+      .news-text{
+        font-size: 14;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-weight: 500;
+          color: grey;
+          margin-left: 8px;
+          padding: 1rem;
+      }
+
+    }
+  }
+
+}

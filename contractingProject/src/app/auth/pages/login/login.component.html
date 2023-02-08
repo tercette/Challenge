@@ -1,0 +1,43 @@
+
+  <div class="login-content">
+
+    <form class="form-content" [formGroup]="loginForm" (submit)="submitLogin()">
+  <div class="logo">
+    <img class="bank-logo" src="../../../../assets/carrefour.jpeg" alt="carrefour bank">
+  </div>
+
+      <div>
+        <div>
+          <input class="input-Login" placeholder="email" formControlName='username'>
+        </div>
+        <div class="error-message" *ngIf="
+          loginForm.get('username')?.invalid &&
+          loginForm.get('username')?.touched ">
+          Enter with a valid e-mail!
+        </div>
+        <div>
+          <input maxlength=10 class="input-Login" placeholder="password" formControlName='password'>
+        </div>
+        <span class="error-message" *ngIf="
+          loginForm.get('password')?.hasError('required') &&
+          loginForm.get('password')?.touched ||
+          loginForm.get('password')?.hasError('minlength')">Enter with a password
+        </span>
+        <span class="error-message" *ngIf="
+          loginForm.get('password')?.hasError('minlength')">enter at least with 6 chars
+        </span>
+        <span class="error-message" *ngIf="showErrorMessage">Wrong credentials</span>
+      </div>
+
+
+
+      <div *ngIf="!loginForm.get('password')?.invalid && !loginForm.get('email')?.invalid  ">
+        <button *ngIf="!showErrorMessage" class="submit-button">Login</button>
+      </div>
+
+        <button *ngIf="showErrorMessage" (click)="loginAgain()" class="submit-button">Click to try again</button>
+      </form>
+
+  </div>
+
+
