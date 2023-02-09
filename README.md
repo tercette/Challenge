@@ -1,17 +1,18 @@
-# Challenge presentation
+# Challenge presentation.
 
-Clone repository: https://github.com/tercette/challenge.git
-In Powershell, go to the path ~challenge\ChallengeAPI\ChallengeAPI (where is located docker-compose.yaml)
-In powerShell, run the command docker-compose build
-In powerShell, run the command docker-compose up
+Clone repository: https://github.com/tercette/challenge.git and clone the project.
+In Powershell, go to the path ~challenge\ChallengeAPI\ChallengeAPI (where is located docker-compose.yaml).
+In powerShell, run the command docker-compose build.
+In powerShell, run the command docker-compose up.
 ![image](https://user-images.githubusercontent.com/90712354/217625700-be143202-3055-491e-9404-dc583e70c352.png)
 
 Front-end:
-	1. Start Visual Studio Code
-	2. In VSC, ~challenge\contractingProject
-	3. Make sure you have NodeJs v16.16.0 
-	4. In VSC terminal, type: npm install to install node_modules and buid the aplication
-	5. In VSC terminal, run the aplication typing: ng serve -o
+	1. Start Visual Studio Code.
+	2. In VSC, ~challenge\contractingProject.
+	3. Make sure you have NodeJs v16.16.0 .
+	4. Make sure you have latest Angular version installed globally in your computer.
+	5. In VSC terminal, type: npm install to install node_modules and buid the aplication.
+	6. In VSC terminal, run the aplication typing: ng serve -o.
 
 Project introdution
 
