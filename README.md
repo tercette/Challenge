@@ -8,10 +8,10 @@ In powerShell, run the command docker-compose up
 
 Front-end:
 	1. Start Visual Studio Code
-	4. In VSC, ~challenge\contractingProject
-	5. Make sure you have NodeJs v16.16.0 
-	6. In VSC terminal, type: npm install to install node_modules and buid the aplication
-	7. In VSC terminal, run the aplication typing: ng serve -o
+	2. In VSC, ~challenge\contractingProject
+	3. Make sure you have NodeJs v16.16.0 
+	4. In VSC terminal, type: npm install to install node_modules and buid the aplication
+	5. In VSC terminal, run the aplication typing: ng serve -o
 
 Project introdution
 
