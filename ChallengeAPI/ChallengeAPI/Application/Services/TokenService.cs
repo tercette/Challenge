@@ -10,7 +10,7 @@ namespace ChallengeAPI.Application.Services
         public static string Generate(string userName)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("This, is, how, we do We make a move and act a fool while we up in the club"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."));
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
